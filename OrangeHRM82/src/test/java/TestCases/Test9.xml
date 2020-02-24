@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="Suite"  thread-count="1">
+
+  <test  name="TC01_Add_Nationality">
+   <parameter name="Browser" value="Chrome"/>   
+ <classes> 
+   <class name="TestCases.TC01_Add_Nationality"/>   
+ </classes>  
+ </test> 
+
+
+ <!--  <test  name="TC01_Add_Skills">
+   <parameter name="Browser" value="Chrome"/>   
+ <classes> 
+   <class name="TestCases.TC01_Add_Skills"/>   
+ </classes>  
+ </test> -->
+ 
+</suite>  
