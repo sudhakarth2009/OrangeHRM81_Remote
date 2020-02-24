@@ -166,14 +166,14 @@ https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java-->
 <dependency>
         <groupId>org.apache.pdfbox</groupId>
         <artifactId>pdfbox</artifactId>
-        <version>2.0.14</version>
+        <version>2.0.15</version>
 </dependency>
 
 
 <dependency>
         <groupId>org.apache.pdfbox</groupId>
         <artifactId>pdfbox</artifactId>
-        <version>1.8.16</version>
+        <version>2.0.15</version>
 </dependency>
 
 
