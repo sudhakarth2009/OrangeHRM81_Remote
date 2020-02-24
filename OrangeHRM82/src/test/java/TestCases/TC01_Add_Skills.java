@@ -25,6 +25,7 @@ import org.testng.annotations.Test;
 public class TC01_Add_Skills
 {
 
+	
 	public static int iRow = 0;
 	
 	WebDriver driver;
@@ -107,6 +108,8 @@ public static Object[][] Authentication1() throws Exception {
 @Test(dataProvider = "TC01_Add_Skills")
 public void Skills_call_allmethods(String TestURL,String UserName, String Password,
 		String SkillName,String SkillDesc) throws Exception {
+	
+	
 	
 	if (iRow==0)
 	{
