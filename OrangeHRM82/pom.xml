@@ -92,7 +92,7 @@ https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java-->
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.12</version>
+    <version>4.13.1</version>
     <scope>test</scope>
 </dependency>
 
